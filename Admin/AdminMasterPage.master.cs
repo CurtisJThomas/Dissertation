@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class AdminMasterPage : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if(((UserClass)Session["User"]) != null)
+        {
+            if (((UserClass)Session["User"]).role != "Admin")
+            {
+                Response.Redirect("/LoggedInHome.aspx");
+            }
+        }
+        else
+        {
+            Response.Redirect("/LogInPage.aspx");
+        }
+       
+    }
+}

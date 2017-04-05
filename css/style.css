@@ -1,0 +1,2026 @@
+.MasterPageContainer{
+background-color:#D8D8D8;
+}
+.myContainer {
+max-width:99%;
+}
+
+.MasterPageNavImage{
+text-align:center;
+}
+
+.UmixMasterImage{
+width:200px;
+height:90px;
+margin-top:10px;
+margin-bottom:5px;
+margin-left:5%;
+}
+
+.signInMaster{
+margin-top:2.5%;
+}
+
+.dropdown-menu {
+width:230px!important;
+border-radius: 15px;
+}
+
+.dropdown-toggle{
+    background-color:#66CCCC;
+    border-radius: 25px;
+}
+
+.MasterSignInEmailTextBox{
+margin-top:5%;
+margin-left:5%;
+margin-right:5%;
+width:90%;
+}
+
+.MasterSignInPasswordTextBox{
+margin-top:5%;
+width:90%;
+margin-left:5%;
+margin-right:5%;
+}
+
+.MasterLogInButton{
+margin-top:5%;
+width:40%!important;
+text-align:center;
+margin-left:5%;
+}
+
+.LogInDropDownValidators{
+    margin-left:5%;
+}
+
+.HomeBackgroundImageDiv{
+height:10%;
+width:100%;
+margin-top:2.5%;
+}
+
+.HomeWelcome{
+background-color:#66CCCC;
+height:300px;
+}
+
+.WelcomeLabelDiv{
+margin-top:5%;
+font-size:90px;
+}
+
+.WelcomeTextDiv{
+text-align:justify;
+}
+
+.HomeSignInButtonDiv{
+margin-top:5px;
+float:right;
+}
+
+.footerHome{
+margin-top:5%;
+height:50px;
+}
+
+.RegisterHeader{
+color:whitesmoke;
+font-size:40px;
+border:0 solid #fff; 
+border-bottom-width:1px;
+}
+
+
+.LogInHeader{
+    color:whitesmoke;
+    font-size:40px;
+    border:0 solid #fff; 
+    border-bottom-width:1px;
+}
+
+.RegisterDivs{
+margin-top:5%;
+}
+
+.RegisterDivsSecond{
+margin-top:3%;
+}
+
+.RegisterButtonDiv{
+text-align:center;
+}
+
+.RegisterHeaderDiv{
+margin-top:10%;
+}
+
+.form-register {
+margin-top:2.5%;
+background-color: #66CCCC;
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 15px;
+border-color:#d2d2d2;
+border-width: 5px;
+box-shadow:0 1px 0 #cfcfcf;
+}
+
+.form-login {
+margin-top:5%;
+background-color: #66CCCC;
+padding-top: 5px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 15px;
+border-color:#d2d2d2;
+border-width: 5px;
+box-shadow:0 1px 0 #cfcfcf;
+}
+
+.LogInHeaderDiv{
+margin-top:10%;
+}
+
+.LogInDivs{
+margin-top:5%;
+margin-bottom:5%;
+}
+
+.logInButton{
+    margin-left:10px;
+}
+
+.LoggedInNav{
+width:85%;
+margin-top:3%;
+}
+
+.homeIcon{
+margin-right:1%
+}
+
+.profileIcon{
+    margin-right:1%
+}
+
+.chatIcon{
+margin-right:1%
+}
+
+.LoggedInSearch{
+margin-right:3%;
+margin-top:2%;
+}
+
+.searchTB{
+Height:30px;
+width:70%;
+margin-right:2%;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+}
+
+.userNameDiv{
+    margin-top:4%;
+}
+
+.logOutButton{
+margin-right:5%;
+margin-top:1%;
+}
+
+.UmixMasterImageLoggedIn{
+width:150px;
+height:70px;
+margin-top:10px;
+margin-left:5%;
+margin-top:4%;
+}
+
+.profileHeader{
+background-color:#F0F0F0;
+text-align:center;
+}
+
+.ProfileHeaderContent{
+background-color:#66CCCC;
+}
+
+.ProfilePicture{
+border-radius: 50%;
+height:175px;
+width:175px;
+margin-top:2%;
+margin-bottom:1.5%;
+}
+
+.ProfilePictureSearch{
+border-radius: 50%;
+height:150px;
+width:150px;
+margin-top:10%;
+margin-bottom:1.5%;
+margin-left:10%;
+}
+
+.viewProfileButtonSearch{
+margin-top:20%;
+color:#808080;
+
+}
+
+.ProfileUserNameLabel{
+    color:whitesmoke;
+    margin-bottom:1%;
+    font-size:25px;
+}
+
+.ProfileFullNameLabel{
+color:whitesmoke;
+}
+
+.ProfileFeeds{
+text-align:center;
+
+}
+
+.ProfileFeedButtons{
+margin-left:28%;
+margin-right:28%;
+}
+
+.EditProfileButton{
+float:right!important;
+color:#808080;
+}
+
+.CancelEditButton{
+float:right!important;
+color:#808080;
+}
+
+.EditProfileDiv{
+margin-top:2.5%;
+}
+
+.editProfileObjects{
+margin-left:5%;
+margin-bottom:2%;
+
+}
+
+.BioEditTextBox{
+width:400px;
+height:100px;
+}
+
+.SubmitProfileChanges{
+margin-top:4%;
+}
+
+.SubmitStatusDiv{
+margin-top:-5px;
+}
+
+.ProfileStatusUpdateFeedButton{
+color:#808080;
+}
+
+.ProfileImagesUpdateFeedButton{
+color:#808080;
+}
+
+.ProfileVideosUpdateFeedButton{
+color:#808080;
+
+}
+
+.ProfileMusicUpdateFeedButton{
+color:#808080;
+}
+
+.imageOrMusicOrVideoUploadProfile{
+margin-bottom:2%!important;
+}
+
+.imageUploadHome{
+    margin-bottom:2%!important;
+}
+
+.ProfileFeedButtons{
+text-align:center;
+}
+
+blockquote{
+border-left:none
+}
+
+.quote-badge{
+background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+overflow: hidden;
+margin-top: -50px;
+padding-top: -100px;
+border-radius: 17px;
+background-color:#66CCCC;
+margin-top: 25px;
+color:white;
+width: 385px;
+box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quoteImage-box{
+    
+overflow: hidden;
+margin-top: -50px;
+padding-top: -100px;
+border-radius: 17px;
+background-color:#66CCCC;
+margin-top: 25px;
+color:white;
+width: 600px;
+box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quote-text{
+font-size: 19px;
+margin-top: -65px;
+}
+
+.panel {
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+margin-bottom: 30px;
+margin-top:10px;
+}
+
+.panel.panel-default {
+border: 1px solid #d4d4d4;
+-webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1);
+}
+
+.panel-danger{
+    margin-top:5px!important;
+    padding-top:0px!important;
+    margin-bottom:0px!important;
+    padding-bottom:0px!important;
+    height:42px!important;
+}
+
+.StatusName{
+font-size:22px!important
+}
+
+.PhotoLabelProfile{
+height:500px;
+width:500px;
+border-radius: 10%;
+}
+
+.PhotoLabelHome{
+height:500px;
+width:500px;
+border-radius: 10%;
+}
+
+.UserProfileNoStatusViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+}
+
+.UserProfileNoImageViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+}
+
+.deleteButton{
+color:white!important;
+background-color:#FF3366!important;
+box-shadow: 2px 2px 2px #888888;
+border-bottom:2px;
+margin-right:5px!important;
+}
+
+.Time_StampLabel{
+margin-left:15px!important;
+}
+
+.myJumbotron{
+padding: 15px 15px;
+margin-bottom: 30px;
+color: inherit;
+background-color:#D8D8D8;
+margin-left:-40px;
+margin-top:1.5%;
+}
+
+.myJumbotronTwo{
+padding: 15px 15px;
+margin-bottom: 30px;
+color: inherit;
+margin-left:-40px;
+margin-top:1.5%;
+}
+
+
+.searchDetails{
+border-radius:10%;
+margin-top:10%;
+text-align:center;
+background-color:#66CCCC;
+color:white;
+}
+
+
+.searchCol{
+background-color:#F8F8F8;
+border-radius:10%;
+width:40%;
+margin-left:-5%;
+}
+
+.searchRow{
+margin-bottom:1%;
+margin-top:1%;
+}
+
+.searchNoResultsDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%; 
+    padding:30px;
+}
+
+.viewProfileButtonSearchDiv{
+text-align:center;
+}
+
+.LoggedInNav{
+width:350px;
+}
+
+.profileUploadBox{
+margin-left:-40px;
+}
+
+.OtherUserProfileFeedButtons{
+margin-left:30%;
+margin-right:30%;
+margin-top:8%;
+margin-bottom:1.5%;
+
+}
+
+.OtherUserStatusFeedButton{
+color:#808080;
+}
+
+.OtherUserImagesFeedButton{
+color:#808080;
+}
+
+.OtherUserVideosFeedButton{
+color:#808080;
+}
+
+.OtherUserMusicFeedButton{
+color:#808080;
+}
+
+.OtherUserFullName{
+    color:whitesmoke;
+}
+
+.OtherUserNameLabel{
+color:whitesmoke;
+    margin-bottom:1%;
+    font-size:25px;
+}
+
+.OtherUserProfileNoStatusViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:2%;
+}
+
+.OtherUserProfileNoImageViewDiv {
+background-color: #66CCCC;
+color: white;
+border-radius: 10%;
+text-align: center;
+margin-top: 2%;
+}
+
+.acceptFriendButton{
+margin-right:10%;
+margin-left:4%;
+margin-top:10px;
+margin-bottom:5px;
+height:45px;
+width:45px;
+
+}
+
+.declineFriendButton{
+    margin-top:10px;
+    margin-bottom:5px;
+    height:45px;
+    width:45px;
+
+}
+
+.viewProfileNotificationButton{
+margin-left:17%;
+margin-top:-40px;
+margin-bottom:5px;
+color:#808080;
+}
+
+.smallProfPic{
+height:40px;
+width:40px;
+border-radius:5px;
+float:right;
+    
+}
+
+.notificationsSection{
+background-color:#F8F8F8;
+
+}
+
+.homeUploadBox{
+border:solid 3px  #D8D8D8;
+border-radius:30px;
+height:500px;
+width:500px;
+    
+}
+
+.notificationDiv{
+overflow-y: scroll;
+overflow-x: hidden;
+height:275px!important;
+}
+
+
+
+.notificationDetails{
+border-radius: 15px 15px 0px 0px;
+background-color:#66CCCC;
+text-align:center;
+color:white;
+}
+
+.smallProfPicNotifications{
+height:60px;
+width:60px;
+border-radius:5px;
+float:left;
+margin-top:3px;
+margin-right:20px;
+margin-left:5px;
+
+}
+
+.userNameNotifications{
+font-size:20px;
+}
+
+.LoggedInHomeFeedButtons{
+margin-left:45%;
+margin-top:2%;
+margin-bottom:1.5%;
+
+}
+
+.loggedInHomeStatusFeedButton{
+color:#808080;
+}
+
+.loggedInHomeImagesFeedButton{
+    color:#808080;
+}
+
+.loggedInHomeVideoFeedButton{
+    color:#808080;
+}
+
+.loggedInHomeMusicFeedButton{
+    color:#808080;
+}
+
+.FriendsDiv{
+float:right;
+height:100px; 
+width:500px; 
+overflow:auto;
+margin-top:15px;
+margin-right:10px;
+}
+
+.friendsLabelDiv{
+background-color:#F8F8F8;
+}
+
+.FriendsLabel{
+color:#808080;
+font-size:15px;
+}
+
+.FriendsDetailsDiv{
+color:whitesmoke;
+background-color:#66CCCC;
+text-align:center;
+}
+
+.viewProfileAllFriendsButton{
+height:40px;
+width:100px;
+float:right;
+margin-right:60px;
+color:#808080;
+
+}
+
+.BlockedDiv{
+height:100px; 
+width:500px; 
+overflow:auto;
+margin-top:15px;
+margin-right:10px;
+
+}
+
+.BlockedLabelDiv{
+background-color:#F8F8F8;
+}
+
+.BlockedLabel{
+color:#808080;
+font-size:15px;
+}
+
+.BlockedDetailsDiv{
+text-align:center;
+color:whitesmoke;
+background-color:#66CCCC ;
+
+}
+
+.UnblockUserButton{
+height:10px;
+width:100px;
+float:right;
+margin-right:60px;
+color:#808080;
+
+}
+
+.smallProfPicFriends{
+height:40px;
+width:40px;
+border-radius:5px;
+float:right;
+margin-right:80px;   
+}
+
+.editProfileLabel{
+    color:whitesmoke;
+    font-size:20px;
+}
+
+.EditProfileHeaderDiv{
+    margin-bottom:40px;
+    border-radius:5px;
+    background-color:#66CCCC;
+    margin-right:240px;
+    text-align:center;
+}
+
+.LoggedInHomeNoStatusViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:60%;
+margin-left:-70px;
+
+}
+
+.LoggedInHomeNoImagesViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:60%;
+margin-left:-70px;
+}
+
+.OtherUserNoStatusViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+}
+
+.OtherUserNoImagesViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+}
+
+.OtherUserNoFriendsViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:100%;
+}
+
+.LoggedInHomeNoNotificationsViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:100%;
+}
+
+.UserProfileNoFriendsViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:100%;
+}
+
+.UserProfileNoBlockedViewDiv{
+background-color:#66CCCC;
+color:white;
+border-radius: 10%;
+text-align:center;
+margin-top:5%;
+width:100%;
+}
+
+.HomeFeeds{
+margin-left:400px;
+}
+
+.statusLoggedInHomeDiv{
+margin-left:-35px;
+}
+
+.LoggedInImage{
+margin-left:-60px;
+}
+
+.LoggedInImageCustom{
+    margin-left:-60px;
+}
+
+.LoggedInVideoCustom{
+    margin-left:-60px;
+}
+
+.VideoProfile{
+}
+
+.musicProfile{
+    margin-left:20px!important;
+}
+
+.fileUpload {
+position:relative;
+overflow:hidden;
+margin:10px;
+margin-top:-1px;
+
+}
+.fileUpload input.upload {
+    position:absolute;
+    top:0;
+    right:0;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.imageOrMusicOrVideoUploadProfileDescription{
+width:60%;
+float:right;
+
+}
+
+.imageOrMusicOrVideoUploadHomeDescription{
+width:70%;
+float:right;
+}
+
+.FriendRequestLabel{
+font-size:20px;
+
+}
+
+.FriendRequestLabelDiv{
+background-color:#E0E0E0;
+color:#808080;
+margin-bottom:10px;
+border-radius:3px;
+}
+
+.ChatDiv{
+    border:solid 3px  #D8D8D8;
+    border-radius:30px;
+    height:500px;  
+    margin-top:20px;
+    width:35%;
+    margin-left:30px;
+    overflow-y: scroll; 
+     overflow-x: hidden;
+}
+
+.ChatSection{
+     overflow-y:  hidden!important; 
+     overflow-x: hidden!important;
+}
+
+
+
+.ChatSection{
+background-color:#F8F8F8;
+margin-top:5%;
+margin-bottom:50px;
+overflow-y: scroll;
+overflow-x: hidden;  
+width:90%;
+margin-left:5%;
+}
+
+.ChatDetails{
+border-radius: 15px 15px 0px 0px;
+background-color:#66CCCC;
+text-align:center;
+color:white;
+}
+
+.smallProfPicChat{
+height:60px;
+width:60px;
+border-radius:5px;
+float:left;
+margin-top:3px;
+margin-right:20px;
+margin-left:5px;
+}
+
+.MessagingDiv{
+    float:right;
+}
+
+.messagesDiv {
+    margin-top 20px;
+    float: none;
+    margin-left:120px;
+    border: solid grey 1px;
+    border-radius: 40px;
+}
+
+.userNameChat{
+font-size:20px;
+}
+
+.chatButton{
+    margin-left:40%;
+    margin-top:3%;
+}
+
+.sendMessage{
+    margin-left:72%;
+    margin-top:-35px;
+}
+
+.chatTBDiv{
+}
+
+.tbMessage{
+    width:70%;
+}
+
+.YoureChattingWithLabel{
+
+}
+
+.ChatNameLabel{
+
+}
+
+.OtherChatUserDiv{
+    background-color:#66CCCC;
+    color:whitesmoke;
+    border-radius:3px;
+    width:70%;
+    text-align:center;
+    margin-top:3%;
+    font-size:20px;
+    }
+
+
+.messageList li{
+    list-style-type:none;
+    background-color:#F8F8F8;
+    width:75%;
+    color:#66CCCC;
+    margin-top:2px;
+    margin-bottom:2px;
+    margin-left:-40px;
+
+}
+
+.viewMessageList{
+    display:block;
+}
+
+.hideMessageList{
+    display:none;
+}
+
+.videoUploadIframe{
+    height:600px!important;
+    width:600px!important;
+    background-color:black;
+}
+
+.uploadTypeLabel{
+    color:#2e6da4;
+    font-size:20px;
+    margin-left:10px;
+}
+
+.uploadTypeLabelDiv{
+      margin-bottom:10px;
+}
+
+.ReportButton{
+    float:right!important;
+    margin-right:10px!important;
+}
+
+.forgotPasswordLink{
+    float:right;
+}
+
+.forgotPasswordLinkMaster{
+    float:right;
+    margin-top:-20px;
+}
+
+.LoggedInHomeReportStatusLabel{
+    float:right;
+    color:#CC0000;
+    margin-right:5px;
+}
+
+.LoggedInHomeReportImageLabel{
+    float:right;
+    color:#CC0000;
+    margin-right:5px;
+}
+
+.LoggedInHomeReportVideoLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.LoggedInHomeReportMusicLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.OtherUserProfileReportStatusLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.OtherUserProfileReportImageLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.OtherUserReportVideoLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.OtherUserProfileReportMusicButtonLabel{
+   float:right;
+   color:#CC0000;
+   margin-right:5px;
+}
+
+.LoggedInHomeNoVideosViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+
+.LoggedInHomeNoMusicViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+
+.ProfileNoMusicViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+
+.ProfileNoVideosViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+.ChatServiceNoFriendsDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+.OtherUserNoVideoViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+.OtherUserNoMusicViewDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+}
+
+.feedPreferenceDropDown{
+    color:#808080;
+    background-color:#D8D8D8;
+}
+
+
+.customFeedHeaderDiv{
+     margin-bottom:40px;
+     margin-top:130px;
+    border-radius:5px;
+    background-color:#66CCCC;
+    margin-right:240px;
+    text-align:center;
+}
+
+.customFeedLabel{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.musicLoggedInHomeDiv{
+    margin-left:-30px;
+
+}
+
+.messageList{
+    list-style: none;
+    margin-bottom:2px;
+    background-color:#F0F0F0;
+    width:360px;
+}
+
+.videoUploadIframe{
+      width: 600px!important;
+      height: 425px!important;
+}
+
+.forgotPasswordDiv{
+    background-color:#66CCCC;
+    color:white;
+    width:30%;
+    border-radius:5px;
+    margin-left:10%;
+    width:500px;
+    height:200px;
+    margin-top:50px;
+}
+
+.enterEmailForgotPasswordLabelDiv{
+    padding-top:40px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.enterEmailForgotPasswordLabel{
+    font-size:30px;
+}
+
+.forgotPasswordEmailTB{
+    width:70%;
+}
+
+.tbAndButtonForgotDiv{
+    margin-left:20px;
+}
+
+.forgotPasswordSubmitEmailButton{
+    float:right;
+    margin-right:50px;
+    margin-top:-35px;
+}
+
+.forgotContainer{
+    background-color:#F0F0F0;
+    padding-bottom:60px;
+    padding-top:20px;
+}
+
+.forgotContainerTwo{
+    background-color:#F0F0F0;
+    padding-bottom:60px;
+    padding-top:20px;
+}
+
+.forgotPasswordDivTwo{
+    background-color:#66CCCC;
+    color:white;
+    width:30%;
+    border-radius:5px;
+    margin-left:10%;
+    width:500px;
+    height:200px;
+    margin-top:50px;
+}
+
+.enterCodeLabelDiv{
+    padding-top:20px;
+    font-size:20px;
+    padding-bottom:40px;
+}
+
+.enterCodeLabel{
+    padding-top:40px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.EnterNewPasswordLabelDiv{
+    padding-top:5px;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.forgotPasswordCodeTB{
+    width:60%;
+    margin-left:20px;
+}
+
+.forgotPasswordCodeButton{
+    float:right;
+    margin-right:100px;
+    margin-top:-35px;
+}
+
+.EnterNewPasswordTBOne{
+    width:80%;
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.EnterNewPasswordTBTwo{
+    width:80%;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.SubmitNewPasswordButton{
+    float:right;
+    margin-right:80px;
+    margin-top:10px;
+}
+
+.forgotPasswordValidationDiv{
+    margin-left:20px;
+}
+
+.enterCodeValidationDiv{
+    margin-left:20px;
+}
+
+.enterNewPasswordValidation{
+    margin-left:20px;
+}
+
+.editProfileLabelDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius:5px;
+    margin-left:5%;
+}
+
+.editDetailsDiv{
+    padding-top:20px;
+}
+
+.MyInformationLabelDiv{
+    margin-top: 40px;
+    background-color: #66CCCC!important;
+    color: white!important;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.editProfileViewLabelDiv{
+    color:#808080!important;
+    background-color:#E8E8E8;
+    width:40%;
+    border-radius:3px;
+
+}
+
+.editProfDiv{
+     color:#808080!important;
+    background-color:#D0D0D0;
+    font-size:24px;
+    border-radius:2px;
+    margin-bottom:30px;
+}
+
+.editButtonDiv{
+    margin-left:65%;
+}
+
+.editProfileObjects{
+    background-color:#F8F8F8;
+}
+
+.blockedAndCustomDiv{
+    background-color:#F8F8F8;
+}
+
+.editButtonsDiv{
+    margin-left:50%;
+    margin-top:2%;
+}
+
+.customFeedEmptyDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 10%;
+    text-align:center;
+    margin-top:5%;
+    width:100%;
+}
+
+.customFeedNameDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 5px;
+    width:50%;
+    margin-left:5%;
+    margin-bottom:7%;
+}
+
+.customRadioButtonDiv{
+    margin-top:3%;
+}
+
+.customFeedSubmitButtonDiv{
+    margin-top:3%;
+}
+
+.customRadioButtonDiv{
+    color:#66CCCC;
+}
+
+.deleteCustomFeedButton{
+    color:#808080;
+}
+
+.blockedAndCustomDiv{
+    height:640px;
+}
+
+.customFeedHeaderDivTwo{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #66CCCC;
+    margin-right: 240px;
+    text-align: center;
+}
+
+.viewDetailsButtom{
+    float:right!important;
+    color:#808080;
+}
+
+.hideDetails{
+    float:right!important;
+    color:#808080;
+}
+
+.viewDetailsLabelDiv{
+    background-color:#66CCCC;
+    color:white;
+    border-radius: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+    width:50%;
+    font-size:28px;
+    text-align:center;
+}
+
+.viewDetailsDiv{
+    width:100%;
+    background-color:#F8F8F8;
+    margin-top:-3%;
+
+}
+
+.LoggedInNavAdmin{
+width:95%;
+}
+
+.adminProfPic{
+    height:150px;
+    width:150px;
+    margin-bottom:25px;
+}
+
+.usersRow{
+    border:2px solid #F8F8F8;
+    border-radius:5px;
+}
+
+#adminViewAllUsersListView{
+    margin-top:10px;
+}
+
+.searchAllUsersAdminTB{
+    width:75%;
+}
+
+.searchAllUsersAdmin{
+float: right;
+margin-top:-35px;
+}
+
+.adminSearchDiv{
+   margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.adminPhotos{
+    height:230px;
+    width:250px;
+}
+
+.musicAdmin{
+    margin-top:5%;
+}
+
+.videoRow{
+   padding-bottom:10px!important;
+}
+
+.videoUploadIframeAdmin{
+    height:400px!important;
+    width:400px!important;
+    background-color:black;
+
+}
+
+.myCustomFeeds{
+    height:200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.adminHeader{
+    color:#66CCCC;
+    font-size:40px;;
+    padding-left:20px;
+}
+
+
+
+
+/* Landscape phones and down */
+@media (max-device-width: 480px) {
+    
+.LoggedInNav{
+    width:130%;
+}
+
+.navDiv{
+        margin-left:-90px!important;
+}
+
+.searchAndLogOutDiv{
+    margin-left:12%;
+}
+
+    .myJumbotron{
+    background-color:white;
+    margin-left:-9%!important;
+}
+
+    .statusProfileDiv{
+        margin-left:-6%;
+    }
+
+    .otherUserProfileStatus{
+        margin-left:-6%;
+    }
+
+
+    .MasterPageNavImage {
+        margin-left:-5%;
+    }
+
+    .homeIcon{
+    height:35px;
+        width:35px; 
+    }
+    .profileIcon{
+        height:35px;
+        width:35px;
+    }
+    .chatIcon{
+        height:35px;
+        width:35px;
+    }
+
+    .logOutButton{
+        height:30px;
+        width:30px;
+    }
+
+    .searchIcon{
+        height:30px;
+        width:30px;
+    }
+
+    .SubmitStatusOrVideoOrMusicOrImageHome{
+        height:40px!important;
+        width:70px!important;
+    }
+
+    .SubmitStatusOrImageOrMusicOrVideoProfile{
+        height:40px!important;
+        width:70px!important;
+    }
+
+    .EditProfileButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }       
+
+    .CancelEditButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .ProfileStatusUpdateFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .ProfileImagesUpdateFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .searchCol{
+            background-color:#F8F8F8;
+            border-radius:10%;
+            width:60%;
+            margin-left:-15%;
+    }
+
+    .quoteImage-box{
+        margin-left:-20%;
+    }
+
+    .OtherUserStatusFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .OtherUserImagesFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+
+    .myJumbotronTwo{
+    margin-left:-110px;
+    }
+
+    .homeUploadBox{
+        width:360px;
+    }
+
+    .viewProfileNotificationButton{
+        margin-left:-1%;
+    }
+
+    .LoggedInHomeFeedButtons{
+        margin-left:33%;
+        margin-top:2%;
+        margin-bottom:1.5%;
+    }
+
+    .feedPreferenceDropDown{
+        margin-left:96%;
+        margin-top:-30px;
+    }
+
+    .statusLoggedInHomeDiv{
+        margin-left:-40%;
+    }
+
+    .LoggedInHomeNoStatusViewDiv {
+        margin-left:-35%;
+    }
+
+    .LoggedInHomeNoImagesViewDiv{
+        margin-left:-35%;
+    }
+
+    .LoggedInImage{
+        margin-left:-47%;
+    }
+
+    .LoggedInHomeNoMusicViewDiv{
+          margin-left:-35%;
+    }
+
+    .musicLoggedInHomeDiv{
+        margin-left:-40%;
+    }
+
+    .imageOrMusicOrVideoUploadHomeDescription{
+        width:60%;
+    }
+
+    .FriendsDiv{
+        width:55%;
+    }
+
+    .profileUploadBox{
+        width:50%;
+        margin-left:-10%;
+    }
+
+        .ProfileFeedButtons{
+        margin-left:23%;
+        margin-right:25%;
+        }
+
+        .musicProfile{
+            margin-left:-70px!important;
+        }
+
+        .FriendsDivMob{
+            width:45%!important;
+        }
+
+     .OtherUserProfileFeedButtons{
+        margin-left:36%!important;
+        margin-right:20%!important;
+    }
+
+     .OtherUserStatusFeedButton{
+         margin-left:-125px;
+         margin-bottom:-50px!important;
+     }
+
+     .chatButton{
+         margin-top:-40px;
+     }
+
+
+     .loggedInHomeStatusFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .loggedInHomeImagesFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+    .loggedInHomeVideoFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+     .loggedInHomeMusicFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileNotificationButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .ProfileVideosUpdateFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .ProfileMusicUpdateFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileAllFriendsButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .deleteCustomFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .UnblockUserButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .OtherUserVideosFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .OtherUserMusicFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewDetailsButtom{
+          color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .hideDetails{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileAllFriendsButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileButtonSearch{
+          color:#808080!important;
+        background-color:#D8D8D8;
+     }
+
+    .UserProfileNoBlockedViewDiv{
+        width:80%;
+     }
+
+}
+
+       
+
+/* Landscape phone to portrait tablet */
+@media (min-device-width: 481px) and (max-device-width: 767px ) {
+     
+        .UserProfileNoBlockedViewDiv{
+        width:80%;
+     }
+    
+     .viewProfileButtonSearch{
+          color:#808080!important;
+        background-color:#D8D8D8;
+     }
+
+     .loggedInHomeStatusFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .loggedInHomeImagesFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+    .loggedInHomeVideoFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+     .loggedInHomeMusicFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileNotificationButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .ProfileVideosUpdateFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .ProfileMusicUpdateFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileAllFriendsButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .deleteCustomFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .UnblockUserButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .OtherUserVideosFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .OtherUserMusicFeedButton{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewDetailsButtom{
+          color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .hideDetails{
+         color:#808080!important;
+        background-color:#D8D8D8;
+     }
+     .viewProfileAllFriendsButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+     }
+  
+    .chatButton{
+         margin-top:-40px;
+     }
+    
+      .OtherUserProfileFeedButtons{
+        margin-left:36%!important;
+        margin-right:20%!important;
+    }
+
+     .OtherUserStatusFeedButton{
+         margin-left:-125px;
+         margin-bottom:-50px!important;
+     }
+
+
+     .FriendsDivMob{
+            width:45%!important;
+        }
+
+    
+    .ProfileFeedButtons{
+        margin-left:20%;
+        margin-right:25%;
+        }
+
+      .musicProfile{
+            margin-left:-70px!important;
+        } 
+    
+     .FriendsDiv{
+        width:55%;
+    }
+
+    .profileUploadBox{
+        width:50%;
+        margin-left:-10%;
+    }
+
+     .imageOrMusicOrVideoUploadHomeDescription{
+        width:60%;
+    }
+     .musicLoggedInHomeDiv{
+        margin-left:-40%;
+    }
+
+     .LoggedInHomeNoMusicViewDiv{
+          margin-left:-35%;
+    }
+           
+    .LoggedInImage{
+        margin-left:-47%;
+    }
+
+    .LoggedInHomeNoImagesViewDiv{
+        margin-left:-35%;
+    }
+    
+          .statusLoggedInHomeDiv{
+            margin-left:-40%;
+            }
+
+             .LoggedInHomeNoStatusViewDiv{
+              margin-left:-35%;
+            }
+       .feedPreferenceDropDown{
+        margin-left:95%;
+        margin-top:-25px;
+    }
+
+     .LoggedInHomeFeedButtons{
+        margin-left:33%;
+        margin-top:2%;
+        margin-bottom:1.5%;
+    }
+
+   .viewProfileNotificationButton{
+               margin-left:-1%;
+    }
+
+    .homeUploadBox{
+        width:360px;
+    }
+    
+     .LoggedInNav{
+    width:120%;
+   }
+
+.navDiv{
+        margin-left:-50px!important;
+}
+
+.searchAndLogOutDiv{
+    margin-left:9%;
+}
+
+.myJumbotron{
+    margin-left:-8%;
+    background-color:white;
+
+}
+
+.myJumbotronTwo{
+    margin-left:-110px;
+}
+
+.statusProfileDiv{
+    margin-left:-6%;
+}
+
+
+
+    .MasterPageNavImage {
+        margin-left:-5%;
+    }
+
+
+    .homeIcon{
+    height:35px;
+        width:35px; 
+    }
+    .profileIcon{
+        height:35px;
+        width:35px;
+    }
+    .chatIcon{
+        height:35px;
+        width:35px;
+    }
+
+    .logOutButton{
+        height:30px;
+        width:30px;
+    }
+
+    .searchIcon{
+        height:30px;
+        width:30px;
+    }
+
+    .SubmitStatusOrVideoOrMusicOrImageHome{
+        height:40px!important;
+        width:70px!important;
+    }
+
+    .SubmitStatusOrImageOrMusicOrVideoProfile{
+        height:40px!important;
+        width:70px!important;
+    }
+
+    .EditProfileButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }       
+
+    .CancelEditButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .ProfileStatusUpdateFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .ProfileImagesUpdateFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .searchCol{
+            background-color:#F8F8F8;
+            border-radius:10%;
+            width:60%;
+            margin-left:-15%;
+    }
+
+        .quoteImage-box{
+        margin-left:-20%;
+    }
+
+        .OtherUserStatusFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+    .OtherUserImagesFeedButton{
+        color:#808080!important;
+        background-color:#D8D8D8;
+    }
+
+      
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-device-width: 768px) and (max-device-width: 979px) { 
+  
+}
+
+/* Large desktop */
+@media (min-device-width: 1200px) { 
+    
+}
+
+
+

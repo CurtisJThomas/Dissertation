@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LoggedInMaster.master.cs" Inherits="LoggedInMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.2-dist/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css"/>
+       <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JS/JavaScript.js"></script>
+    <script type="text/javascript" src="JS/bootstap.js"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <script >
+        search = function ()
+        {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                document.getElementById('searchIcon').click();
+            }
+        }
+    </script>
+
+      <script type="text/javascript" >
+        chat = function ()
+        {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                document.getElementById('sendMessage').click();
+                document.getElementById('chatButton').click();
+            }
+        }
+    </script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MasterPageForm" runat="server">
+
+      <div class="MasterPageContainer">
+          <div class="row">
+              <div class="MasterPageNavImage col-md-4 col-xs-4 col-lg-4" >
+                  <asp:ImageButton ID="UmixMasterImageLoggedIn" CssClass="UmixMasterImageLoggedIn" OnClick="UmixMasterImageLoggedIn_Click" imageURL="images/UmixLogo.png" runat="server" CausesValidation="False" />
+              </div>
+
+            <div  class="col-md-4 col-xs-4 col-lg-4 navDiv" style="text-align:center;">
+                <nav class="LoggedInNav navbar navbar-default"">
+                    <div class="container-fluid"">
+                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="LoggedInHome.aspx"><asp:ImageButton ID="homeIcon" ToolTip="Home" CssClass="homeIcon" ImageUrl="~/images/home.png" OnClick="Home_Click" runat="server"></asp:ImageButton>Home</a></li>
+                                <li><a href="UserProfile.aspx"><asp:ImageButton ID="profileIcon" ToolTip="Profile" CssClass="profileIcon" ImageURL="~/images/profile.png" OnClick="Profile_Click" runat="server"></asp:ImageButton>Profile</a></li>
+                                <li><a href="ChatPage.aspx"><asp:ImageButton ID="chatIcon" CssClass="chatIcon" ToolTip="Chat" ImageUrl="~/images/chat.png" OnClick="Chat_Click" runat="server"></asp:ImageButton>Chat</a></li>
+                            </ul>
+                         </div>
+                    </div>
+                </nav>
+            </div>
+
+     <div class="col-md-4 col-xs-4 col-lg-4 searchAndLogOutDiv">
+               <asp:ImageButton ID="logOutButton" CssClass="logOutButton"  ImageURL="~/images/logOut.png"  Style="float:right;" ToolTip="Log Out" OnClick="LogOut_Click" runat="server"></asp:ImageButton>                        
+               <div class="LoggedInSearch row">
+                  <asp:TextBox ID="searchTB" CssClass="searchTB" runat="server" onkeydown="search()" placeholder="Search Umix"></asp:TextBox>
+                  <asp:ImageButton ID="searchIcon" CssClass="searchIcon" ToolTip="Search Umix" ImageURL="~/images/search.png" runat="server" OnClick="searchIcon_Click"></asp:ImageButton>          
+               </div>   
+               <div class="row userNameDiv">
+                   <asp:Label ID="userNameLabel" CssClass="userNameLabel" ForeColor="#808080" runat="server" Text=""></asp:Label>
+                   <div>
+                       <asp:HyperLink ID="backToAdminLink" NavigateUrl="~/Admin/AdminPage.aspx" runat="server">Go back to admin</asp:HyperLink>
+                   </div>
+               </div>  
+      </div>
+
+   </div>
+  </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+</body>
+</html>

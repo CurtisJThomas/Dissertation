@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.2-dist/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css"/>
+       <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JS/JavaScript.js"></script>
+    <script type="text/javascript" src="JS/bootstap.js"></script>
+
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <script type="text/javascript">
+        dropdown = function ()
+        {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                document.getElementById('MasterLogInButton').click();
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        registerWithJS = function ()
+        {
+                if (event.keyCode == 13) {
+                event.preventDefault();
+                document.getElementById('RegisterButton').click();
+            }
+        }
+    </script>
+
+     <script type="text/javascript" >
+        logIn = function ()
+        {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                document.getElementById('LogInPageButton').click();
+            }
+        }
+    </script>
+
+
+</head>
+<body >
+    <form id="MasterPageForm"  runat="server" >
+
+      <div class="MasterPageContainer">
+          <div class="row">
+              <div class="MasterPageNavImage col-md-4 col-xs-4 col-lg-4" >
+                  <asp:ImageButton ID="UmixMasterImage" CssClass="UmixMasterImage" imageURL="images/UmixLogo.png" runat="server" OnClick="UmixMasterImage_Click" CausesValidation="False" />
+              </div>
+
+            <div class="col-md-5 col-xs-5 col-lg-5">
+                <!--blank space-->
+            </div>
+
+     <div class="signInMaster col-md-3 col-xs-3 col-lg-3">             
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#dropdown"><asp:Label ID="LogInHomeLabel" runat="server" ForeColor="White" Text="Log In"></asp:Label> <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><asp:Label ID="MasterUserDoesNotExistValidaionLabel" class="label label-danger LogInDropDownValidators" runat="server" Text=""></asp:Label></li>
+              <li><asp:TextBox ID="MasterSignInEmailOrUserNameTextBox" CssClass="form-control MasterSignInEmailTextBox" placeholder="Email or username" onkeydown="dropdown()" runat="server"></asp:TextBox></li>
+            <li><asp:Label ID="MasterEmailAndUserNameValidationLabel" class="label label-danger LogInDropDownValidators" runat="server" Text=""></asp:Label></li>
+            <li><asp:TextBox ID="MasterSignInPasswordTextBox" CssClass="form-control MasterSignInPasswordTextBox" type="password" placeholder="Password" onkeydown="dropdown()" runat="server"></asp:TextBox></li>
+           <li><asp:Label ID="MasterPasswordValidationLabel" class="label label-danger LogInDropDownValidators" runat="server" Text=""></asp:Label></li>
+           <li><asp:Button ID="MasterLogInButton" CssClass="btn btn-primary btn-block MasterLogInButton" runat="server" Text="Log in" OnClick="HomeLogInButton_Click" CausesValidation="False"/></li>
+           <asp:HyperLink ID="forgotPasswordLink" CssClass="forgotPasswordLinkMaster" NavigateUrl="ForgotPasswordPage.aspx"  runat="server">Forgot password?</asp:HyperLink>
+          </ul>
+        </li>
+      </ul>                     
+      </div>
+     </div>
+   </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+</body>
+</html>

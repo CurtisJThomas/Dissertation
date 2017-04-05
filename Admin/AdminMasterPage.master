@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  
+     <title></title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/bootstrap-3.3.2-dist/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet"  href="../css/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css"/>
+       <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="../JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../JS/JavaScript.js"></script>
+    <script type="text/javascript" src="../JS/bootstap.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet"/>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+ 
+      <asp:ContentPlaceHolder id="head" runat="server">
+         </asp:ContentPlaceHolder>
+   
+</head>
+<body role="document">
+    <form id="MasterPageForm" runat="server">
+          <div class="MasterPageContainer">
+          <div class="row">
+              <div class="MasterPageNavImage col-md-2 col-xs-2 col-lg-2" >
+                  <asp:ImageButton ID="UmixMasterImage" CssClass="UmixMasterImage" imageURL="../images/UmixLogo.png" runat="server" CausesValidation="False" />
+              </div>
+            <div class="col-md-10 col-xs-10 col-lg-10">
+               <nav class="LoggedInNavAdmin navbar navbar-default"">
+                    <div class="container-fluid"">
+                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="../LoggedInHome.aspx">Umix Home</a></li>
+                                <li ><a href="../Admin/AdminPage.aspx">Admin Home</a></li>
+                                <li><a href="../Admin/AllStatus'sAdmin.aspx">All Status's</a></li>
+                                <li><a href="../Admin/AllImageAdmin.aspx">All Images</a></li>
+                                <li><a href="../Admin/AllVideo'sAdmin.aspx">All video's</a></li>
+                                <li><a href="../Admin/AllMusicAdmin.aspx">All Music</a></li>
+                                <li><a href="../Admin/AllReportedStatus'sAdmin.aspx">Reported Status's</a></li>
+                                <li><a href="../Admin/AllReportedImagesAdmin.aspx">Reported Images</a></li>
+                                <li><a href="../Admin/AllReportedVideosAdmin.aspx">Reported Videos</a></li>
+                                <li><a href="../Admin/AllReportedMusicAdmin.aspx">Reported Music</a></li>
+                            </ul>
+                         </div>
+                    </div>
+                </nav>           
+             </div>
+            </div>
+          </div>
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
